@@ -55,7 +55,8 @@ public class Main
                         continue;
                     }
 
-                } catch (ArrayIndexOutOfBoundsException ex)
+                }
+                catch (ArrayIndexOutOfBoundsException ex)
                 {
                     ex.printStackTrace(); // for error
                     System.out.println("Warning: ArrayIndexOutOfBoundsException");
